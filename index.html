@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Github Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">Usuário do Github</label>
+                <input type="text" id="input-search" placeholder="Username Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Users</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://www.github.com/bielnascf.png" alt="Imagem do usuário github">
+                        <a href="https://www.github.com/bielnascf" target="_blank">
+                            <p>Gabriel Nascimento</p>
+                            <span>bielnacf</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        19
+                    </td>
+                    <td class="followers">
+                        12
+                    </td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://www.github.com/MatthewAraujo.png" alt="Imagem do usuário github">
+                        <a href="https://www.github.com/MatthewAraujo" target="_blank">
+                            <p>Matthew Araujo</p>
+                            <span>MatthewAraujo</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        56
+                    </td>
+                    <td class="followers">
+                        19
+                    </td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+</html>
