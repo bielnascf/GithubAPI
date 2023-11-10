@@ -58,7 +58,7 @@ table * {
 table th {
     background: var(--primary-color);
     text-align: left;
-    font-weight: normal;
+    font-weight: bold;
     padding: 1.5rem;
 }
 
@@ -110,4 +110,6 @@ td .remove {
     border: none;
 
     color: #ff0000;
+
+    cursor: pointer;
 }
